@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-playground"
+version = "0.1.0"
+description = ""
+authors = ["adrian <tamkayeung.adrian@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
